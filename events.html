@@ -16,10 +16,10 @@
     <div>
         <header>
             <div class="text-white bg-dark" style="background: url(assets/img/bg-1.png) center / cover no-repeat;">
-                <div class="py-3">
+                <div class="pt-3">
                     <div class="container">
                         <div class="row">
-                            <div class="col mb-3">
+                            <div class="col mb-3 mb-xl-0">
                                 <div class="row mb-3 mb-lg-0">
                                     <div class="col">
                                         <ul class="list-inline d-flex justify-content-center justify-content-sm-end lead font-weight-bold mb-0">
@@ -38,7 +38,7 @@
                                                 <li class="nav-item"><a class="nav-link text-lowercase text-white py-1 px-2 font-weight-bold" href="events.html">Eventy online</a></li>
                                                 <li class="nav-item"><a class="nav-link text-lowercase text-white py-1 px-2 font-weight-bold" href="marketing-360.html">Marketing 360</a></li>
                                                 <li class="nav-item"><a class="nav-link text-lowercase text-white py-1 px-2 font-weight-bold" href="#">o nas</a></li>
-                                            </ul><button class="btn btn-lg text-white d-md-none p-0" type="button"><i class="fas fa-bars" style="font-size: 28px;"></i></button></div>
+                                            </ul><button class="btn btn-lg text-white d-md-none p-0" type="button" data-toggle="modal" data-target="#modal__menu"><i class="la la-bars" style="font-size: 28px;"></i></button></div>
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="py-3">
                     <div class="container">
-                        <div class="row align-items-center">
+                        <div class="row">
                             <div class="col-lg-8 order-1 order-lg-2">
                                 <h1 class="text-center text-warning font-weight-bold display-4">Eventy Online</h1>
                                 <p class="lead text-lowercase text-center">Angażuj odbiorców, buduj doświadczenia marki, promuj ofertę</p>
@@ -92,7 +92,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 order-2 order-lg-1 py-3">
-                                <div class="card text-body">
+                                <div class="card text-body border-radius--10">
                                     <div class="card-body">
                                         <h4 class="text-lowercase text-center card-title font-weight-bold h5">Chcesz trafić do nowych klientów?</h4>
                                         <form>
@@ -133,10 +133,12 @@
                             <div class="mb-3">
                                 <div class="d-flex justify-content-center"><img class="img-fluid" src="assets/img/image-1.png"></div>
                             </div>
-                            <div class="card text-white bg-secondary border-warning">
-                                <div class="card-body border--2">
-                                    <h5 class="text-lowercase text-center card-title">Wolisz pobrać ofertę?</h5>
-                                    <div class="d-flex justify-content-center"><button class="btn btn-warning text-lowercase rounded-0 font-weight-bold px-5" type="button">kliknij</button></div>
+                            <div class="d-flex justify-content-center">
+                                <div class="card text-white bg-secondary border-warning">
+                                    <div class="card-body border--2">
+                                        <h5 class="text-lowercase text-center card-title">Wolisz pobrać ofertę?</h5>
+                                        <div class="d-flex justify-content-center"><button class="btn btn-warning text-lowercase rounded-0 font-weight-bold px-5" type="button">kliknij</button></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -329,7 +331,7 @@
             </div>
             <h3 class="text-center font-weight-bold">Chcesz zrealizować event online swojej marki?</h3>
             <p class="text-center">Wypełnij formularz, a skontaktuje się z Tobą jeden z naszych Project Managerów by omówić szczegóły</p>
-            <form class="text-body bg-white p-4">
+            <form class="text-body bg-white p-4 border-radius--15">
                 <div class="form-row">
                     <div class="col">
                         <div class="form-group"><input class="form-control" type="text"></div>
@@ -348,10 +350,10 @@
                 </div>
                 <div class="form-group"><input class="form-control" type="text"></div>
                 <div class="form-group">
-                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Label</label></div>
+                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2"><small class="d-inline-block line-height--normal">Zgadzam się na przetwarzanie przez Lilla House sp. z o.o. moich danych osobowych w celu prowadzenia korespondencji handlowej. Potwierdzam akceptację postanowień polityki prywatności Lilla House<br></small></label></div>
                 </div>
                 <div class="form-group mb-0">
-                    <div><button class="btn btn-primary text-lowercase" type="button">Wyślij</button></div>
+                    <div class="d-flex justify-content-center"><button class="btn btn-primary text-lowercase px-3 px-sm-4 px-lg-5" type="button">Wyślij</button></div>
                 </div>
             </form>
         </div>
@@ -379,7 +381,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-4 py-3">
-                        <h1>Na blogu</h1>
+                        <h2 class="h1">Na blogu</h2>
                         <ul class="list-unstyled">
                             <li class="mb-2"><a class="text-white" href="#">Marketing 360°. Jak skutecznie rozszerzyć pole oddziaływania kampanii</a></li>
                             <li class="mb-2"><a class="text-white" href="#">Marketing 360°. Jak skutecznie rozszerzyć pole oddziaływania kampanii</a></li>
@@ -411,18 +413,18 @@
                     <div class="col-lg-4">
                         <div class="card text-white bg-secondary border-warning rounded-0 card--dark border--2">
                             <div class="card-body">
-                                <h4 class="text-center card-title">Napisz do nas</h4>
-                                <form class="text-body bg-white p-3">
-                                    <div class="form-group"><input class="form-control" type="text"></div>
-                                    <div class="form-group"><input class="form-control" type="text"></div>
-                                    <div class="form-group"><input class="form-control" type="text"></div>
-                                    <div class="form-group"><input class="form-control" type="text"></div>
-                                    <div class="form-group"><input class="form-control" type="email"></div>
+                                <h3 class="text-center card-title h2">Napisz do nas</h3>
+                                <form class="text-body bg-white p-3 border-radius--10">
+                                    <div class="form-group"><input class="form-control form-control-sm" type="text"></div>
+                                    <div class="form-group"><input class="form-control form-control-sm" type="text"></div>
+                                    <div class="form-group"><input class="form-control form-control-sm" type="text"></div>
+                                    <div class="form-group"><input class="form-control form-control-sm" type="text"></div>
+                                    <div class="form-group"><input class="form-control form-control-sm" type="email"></div>
                                     <div class="form-group">
-                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-1">Zgadzam się z…</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-1"><small class="d-inline-block line-height--normal">Zgadzam się na przetwarzanie przez Lilla House sp. z o.o. moich danych osobowych w celu prowadzenia korespondencji handlowej. Potwierdzam akceptację postanowień polityki prywatności Lilla House<br></small></label></div>
                                     </div>
                                     <div class="form-group mb-0">
-                                        <div class="d-flex justify-content-center"><button class="btn btn-primary text-lowercase" type="button">Wyślij</button></div>
+                                        <div class="d-flex justify-content-center"><button class="btn btn-primary btn-sm text-lowercase px-3 px-sm-4 px-xl-5" type="button">Wyślij</button></div>
                                     </div>
                                 </form>
                             </div>
@@ -438,11 +440,35 @@
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content rounded-0">
                     <div class="modal-header d-flex justify-content-between align-items-center border-0 p-0">
-                        <h1 class="mb-0 pl-3"><a href="index.html"></a></h1>
+                        <h1 class="mb-0 pl-3"><a href="index.html"><img class="img-fluid d-block height--25" src="assets/img/logo-lilla-digital.png"></a></h1>
                         <div><button class="btn btn-link bg-white rounded-0 ratio width--45 p-0" data-dismiss="modal" type="button"><span class="text-dark"><i class="la la-times" style="font-size: 22px;"></i></span></button></div><button type="button" class="close"
                             data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                     <div class="modal-body py-0 px-0">
-                        <div></div>
+                        <div>
+                            <ul class="list-group text-lowercase">
+                                <li class="list-group-item px-0">
+                                    <div class="container-fluid"><span class="d-flex justify-content-end h4 mb-0"><a class="h5 mb-0" href="social-media.html">Social Media</a></span></div>
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <div class="container-fluid"><span class="d-flex justify-content-end h4 mb-0"><a class="h5 mb-0" href="advertise.html">Reklamy PPC</a></span></div>
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <div class="container-fluid"><span class="d-flex justify-content-end h4 mb-0"><a class="h5 mb-0" href="events.html">Eventy Online</a></span></div>
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <div class="container-fluid"><span class="d-flex justify-content-end h4 mb-0"><a class="h5 mb-0" href="marketing-360.html">Marketing 360</a></span></div>
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <div class="container-fluid"><span class="d-flex justify-content-end h4 mb-0"><a class="h5 mb-0" href="#">Blog</a></span></div>
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <div class="container-fluid"><span class="d-flex justify-content-end h4 mb-0"><a class="h5 mb-0" href="#">O nas</a></span></div>
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <div class="container-fluid"><span class="d-flex justify-content-end h4 mb-0"><a class="h5 mb-0" href="#">Kontakt</a></span></div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
